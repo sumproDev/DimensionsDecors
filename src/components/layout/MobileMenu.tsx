@@ -15,7 +15,7 @@ export function MobileMenu({ open, pathname, onClose }: MobileMenuProps) {
 
   return (
     <div
-      className="fixed inset-x-0 top-20 z-[90] max-h-[calc(100vh-5rem)] overflow-y-auto border-b border-border bg-background/98 px-5 shadow-2xl shadow-black/50 backdrop-blur-xl md:top-28 lg:hidden"
+      className="fixed inset-x-0 top-16 z-[90] max-h-[calc(100vh-5rem)] overflow-y-auto border-b border-border bg-background/98 px-5 shadow-2xl shadow-black/50 backdrop-blur-xl md:top-28 lg:hidden"
     >
       <nav aria-label="Mobile navigation" className="mx-auto max-w-[1440px] py-6">
         <ul className="grid">

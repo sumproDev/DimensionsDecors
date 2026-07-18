@@ -41,14 +41,14 @@ export function Header() {
         scrolled ? "border-gold/35 bg-background/95" : "border-gold/25 bg-background/85"
       } backdrop-blur-xl`}
     >
-      <Container className="flex h-20 md:h-28 items-center justify-between gap-8">
+      <Container className="flex h-16 md:h-24 items-center justify-between gap-8">
         <Link href="/" aria-label="Dimensions Decor home" className="group relative z-[70] shrink-0">
           <Image
             src="/images/logo.jpg"
-            width={200}
+            width={150}
             height={200}
             alt="Dimensions Decor"
-            className="h-auto w-[150px] md:w-[200px]"
+            className="h-auto w-[110px] md:w-[150px]"
           />
         </Link>
 
@@ -90,7 +90,7 @@ export function Header() {
             event.preventDefault();
             toggleMenu();
           }}
-          className="relative z-[100] inline-flex size-11 shrink-0 touch-manipulation items-center justify-center border border-gold/50 text-gold transition-colors hover:bg-gold hover:text-background focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold lg:hidden"
+          className="relative z-[100] inline-flex size-11 shrink-0  items-center justify-center border border-gold/50 text-gold transition-colors hover:bg-gold hover:text-background focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold lg:hidden"
         >
           {open ? <X aria-hidden="true" className="size-5" /> : <Menu aria-hidden="true" className="size-5" />}
         </button>
